@@ -1,0 +1,451 @@
+    //color
+    $slateGray:#6e81a9;
+    $paleGreen:#53ffc0;
+    $linen:#b1bceb;
+    $lavender:#dadff6;
+    $mediumAquamarine:#9194ff;
+    $dimgrayWhite:#b2bac6;
+    $aliceBlue:#a4c5f0;
+    $whiteSmoke:#cdd3d9;
+    $silverWhite:#eaecef;
+    $dimGray:#758698;
+    $gainsBoro:#c9cfd6;
+    $lighterGray:#e6effb;
+    $darkGray:#495463;
+    $blue:#2c80ff;
+    $silver:#d2dde9;
+    $white:white;
+    $midnightBlue:#101941;
+    $darkOrange:#cc9a00;
+    $grassy:#00b975;
+    $navy:#253992;
+    $springGreen:#00d285;
+    $gold:#ffc100;
+    $tomato:#ff6868;
+    $lightCyan:#e6effb;
+    $paleTurquoise:#d0e1f7;
+    $lightSteelBlue:#e1e4e9;
+    $skyBlue:#c5dcff;
+    $cornflowerBlue:#9daae6;
+    $honeydew:#e1fff4;
+    $lemonChiffon:#fff8e0;
+    $peachPuff:#ffd8d8;
+    $lightSalmon:#ffb5b5;
+    .btn-light {
+        background-color: $dimGray !important;
+        color: $white !important;
+        border-color: $dimGray !important;
+    }
+    
+    .btn-lighter {
+        background-color: $lighterGray !important;
+        color: $darkGray !important;
+        border-color: $lighterGray !important;
+    }
+    
+    .btn-dark {
+        background-color: $darkGray !important;
+        color: $white !important;
+        border-color: $darkGray !important;
+    }
+    
+    .btn-primary {
+        background-color: $blue !important;
+        color: $white !important;
+        border-color: $blue !important;
+    }
+    
+    .btn-secondary {
+        background-color: $navy !important;
+        color: $white !important;
+        border-color: $navy !important;
+    }
+    
+    .btn-success {
+        background-color: $springGreen !important;
+        color: $white !important;
+        border-color: $springGreen !important;
+    }
+    
+    .btn-warning {
+        background-color: $gold !important;
+        color: $white !important;
+        border-color: $gold !important;
+    }
+    
+    .btn-danger {
+        background-color: $tomato !important;
+        color: $white !important;
+        border-color: $tomato !important;
+    }
+    
+    .btn-alt-light {
+        background-color: $lightCyan !important;
+        color: $darkGray !important;
+        border-color: $lightCyan !important;
+    }
+    
+    .btn-alt-lighter {
+        background-color: $paleTurquoise !important;
+        color: $dimGray !important;
+        border-color: $paleTurquoise !important;
+    }
+    
+    .btn-alt-dark {
+        background-color: $lightSteelBlue !important;
+        color: $darkGray !important;
+        border-color: $lightSteelBlue !important;
+    }
+    
+    .btn-alt-primary {
+        background-color: $skyBlue !important;
+        color: $blue !important;
+        border-color: $skyBlue !important;
+    }
+    
+    .btn-alt-secondary {
+        background-color: $cornflowerBlue!important;
+        color: $midnightBlue !important;
+        border-color: $cornflowerBlue !important;
+    }
+    
+    .btn-alt-success {
+        background-color: $honeydew !important;
+        color: $grassy !important;
+        border-color: $honeydew !important;
+    }
+    
+    .btn-alt-warning {
+        background-color: $lemonChiffon !important;
+        color: $darkOrange !important;
+        border-color: $lemonChiffon !important;
+    }
+    
+    .btn-alt-danger {
+        background-color: $peachPuff !important;
+        color: $tomato !important;
+        border-color: $peachPuff!important;
+    }
+    
+    .btn-outline-light {
+        background-color: $white !important;
+        color: $dimGray !important;
+        border-color: $gainsBoro !important;
+    }
+    
+    .btn-outline-lighter {
+        background-color: $white !important;
+        color: $dimGray !important;
+        border-color: $gainsBoro !important;
+    }
+    
+    .btn-outline-dark {
+        background-color: $white !important;
+        color: $darkGray !important;
+        border-color: $silver !important;
+    }
+    
+    .btn-outline-primary {
+        background-color: $white !important;
+        color: $blue !important;
+        border-color: $blue !important;
+    }
+    
+    .btn-outline-secondary {
+        background-color: $white !important;
+        color: $navy !important;
+        border-color: $navy !important;
+    }
+    
+    .btn-outline-success {
+        background-color: $white !important;
+        color: $springGreen !important;
+        border-color: $springGreen !important;
+    }
+    
+    .btn-outline-warning {
+        background-color: $white !important;
+        color: $gold !important;
+        border-color: $gold !important;
+    }
+    
+    .btn-outline-danger {
+        background-color: $white !important;
+        color: $tomato !important;
+        border-color: $tomato !important;
+    }
+    
+    .btn {
+        position: relative;
+        font-weight: 600 !important;
+        padding: 8px 20px;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        border-radius: 4px;
+        min-width: 160px;
+        border: 1px solid;
+        transition: all .4s ease;
+        color: $white;
+        background-color: $blue;
+        border-color: $blue;
+    }
+    
+    .btn-xl {
+        padding: 18px 30px;
+    }
+    
+    .btn-lg {
+        padding: 10px 20px;
+    }
+    
+    .btn-sm {
+        padding: 7px 18px;
+        font-size: 14px;
+    }
+    
+    .btn-xs {
+        padding: 3px 12px 4px;
+        font-size: 11px;
+    }
+    
+    .title {
+        color: $navy;
+        font-weight: bold;
+        margin: 0;
+        text-align: left;
+        font-weight: 600;
+        font-size: 1.4em;
+    }
+    
+    .p-1 {
+        padding: 10px;
+    }
+    
+    .p-2 {
+        padding: 20px;
+    }
+    
+    .p-3 {
+        padding: 30px;
+    }
+    
+    .p-4 {
+        padding: 40px;
+    }
+    
+    .m-auto {
+        margin: auto;
+    }
+    
+    .min-width-0 {
+        min-width: 0;
+    }
+    
+    .badge {
+        padding: 6px 12px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        min-width: 90px;
+        border: 1px solid;
+        text-align: center;
+        border-radius: 3px;
+    }
+    
+    .badge-dim-light {
+        background-color: $silverWhite !important;
+        border-color: $whiteSmoke !important;
+        color: $darkGray !important;
+    }
+    
+    .badge-dim-lighter {
+        @extend .btn-alt-lighter;
+        border-color: $aliceBlue !important;
+        color: $darkGray !important;
+    }
+    
+    .badge-dim-dark {
+        @extend .btn-alt-dark;
+        color: $darkGray !important;
+        border-color: $dimgrayWhite !important;
+    }
+    
+    .badge-dim-primary {
+        @extend .btn-alt-primary;
+        color: $darkGray !important;
+        border-color: $mediumAquamarine!important;
+    }
+    
+    .badge-dim-secondary {
+        background-color: $lavender !important;
+        color: $darkGray !important;
+        border-color: $linen !important;
+    }
+    
+    .badge-dim-success {
+        @extend .btn-alt-success;
+        border-color: $paleGreen!important;
+        color: $darkGray !important;
+    }
+    
+    .badge-dim-warning {
+        @extend .btn-alt-warning;
+        color: $darkGray !important;
+        border-color: $gold!important;
+    }
+    
+    .badge-dim-danger {
+        @extend .btn-alt-danger;
+        color: $darkGray !important;
+        border-color: $lightSalmon !important;
+    }
+    
+    .badge-outline-light {
+        @extend .badge-dim-light;
+        background-color: $white !important;
+        border-color: $dimGray !important;
+    }
+    
+    .badge-outline-lighter {
+        @extend .badge-dim-lighter;
+        background-color: $white !important;
+        border-color: $lighterGray;
+    }
+    
+    .badge-outline-dark {
+        @extend .badge-dim-dark;
+        background-color: $white !important;
+        color: $darkGray !important;
+        border-color: $darkGray!important;
+    }
+    
+    .badge-outline-primary {
+        @extend .badge-dim-primary;
+        background-color: $white !important;
+        border-color: $blue !important;
+    }
+    
+    .badge-outline-secondary {
+        @extend .badge-dim-secondary;
+        color: $darkGray !important;
+        background-color: $white !important;
+    }
+    
+    .badge-outline-success {
+        @extend .badge-dim-success;
+        background-color: $white !important;
+    }
+    
+    .badge-outline-warning {
+        @extend .badge-dim-warning;
+        background-color: $white !important;
+        color: $darkGray !important;
+    }
+    
+    .badge-outline-danger {
+        @extend .badge-dim-danger;
+        background-color: $white !important;
+        color: $darkGray !important;
+    }
+    
+    .badge-xl {
+        padding: 9px 15px;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+        min-width: 120px;
+    }
+    
+    .badge-lg {
+        padding: 6px 15px;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+        min-width: 120px;
+    }
+    
+    .badge-md {
+        padding: 6px 12px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        min-width: 90px;
+    }
+    
+    .badge-sm {
+        padding: 4px 12px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        min-width: 90px;
+    }
+    
+    .badge-xs {
+        padding: 2px 8px;
+        font-size: 11px;
+        line-height: 16px;
+        font-weight: 400;
+        min-width: 55px;
+    }
+    
+    body {
+        background-color: #e0e8f3;
+        .card {
+            border-radius: 4px;
+            margin-bottom: 15px;
+            background: $white;
+            transition: all .4s;
+            vertical-align: top;
+            border: none;
+            margin: 10px;
+            .text-exlight {
+                color: $slateGray !important;
+            }
+            .input-item {
+                position: relative;
+                padding-bottom: 20px;
+            }
+            .text-left {
+                text-align: left !important;
+            }
+            .text-center {
+                text-align: center;
+            }
+            .item-label {
+                font-size: 13px;
+                font-weight: 600;
+                text-align: left !important;
+                color: $slateGray;
+            }
+            label {
+                font-size: 13px;
+                margin: 5PX;
+            }
+            small {
+                color: $dimGray;
+            }
+            .input-bordered {
+                border-radius: 4px;
+                border: 1px solid #d2dde9;
+                width: 100%;
+                line-height: 20px;
+                font-size: .9em;
+                color: rgba(73, 84, 99, 0.7);
+                font-size: 15px;
+            }
+            .input-bordered-lg {
+                @extend .input-bordered;
+                height: 100px;
+            }
+        }
+        .card-lg {
+            @extend .card;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    
+    .bg-white {
+        background-color: $white;
+    }
